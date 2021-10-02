@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
         body: new SafeArea(
           child: Container(
             child: WebView(
-              initialUrl: 'https://member.jagopns.com',
+              initialUrl: 'https://member.jagopns.com/login',
               javascriptMode: JavascriptMode.unrestricted,
               gestureNavigationEnabled: true,
             ),
